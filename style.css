@@ -13,10 +13,11 @@ body{
     color: #7a7a7a;
 }
 header{
-    background-color: #ffb30d;
+    background-color: #ffc107f3;
     padding: 30px;
 }
 
+/* estilo do navegador da tag nav
 nav{
     font-size: 12px;
     letter-spacing: 4px;
@@ -35,6 +36,7 @@ nav ul{
     float: right;
     list-style: none;
 }
+*/
 
 
 h1{
@@ -71,7 +73,13 @@ table thead th{
     background-color: #ffb30d;
     color: white;
 }
-.imgs{
-    display: inline-block;
+
+
+
+
+footer{
+    padding: 10px;
+    background-color: #ffb30d;
+    color: white;
     text-align: center;
 }
