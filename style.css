@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
 }
+
+/*
 body{
     font-weight: 400;
     font-family: Lato, sans-serif;
@@ -14,8 +16,9 @@ body{
 }
 header{
     background-color: #ffc107f3;
-    padding: 30px;
+    padding-bottom: 40px;
 }
+*/
 
 /* estilo do navegador da tag nav
 nav{
@@ -51,11 +54,14 @@ h2{
     text-transform: uppercase;
     font-weight: 600;
 }
+
 section{
     margin: 40px;
 }
 
+
 table{
+    
     width: 100%;
 }
 table td{
@@ -74,12 +80,11 @@ table thead th{
     color: white;
 }
 
-
-
-
+/*
 footer{
     padding: 10px;
     background-color: #ffb30d;
     color: white;
     text-align: center;
 }
+*/

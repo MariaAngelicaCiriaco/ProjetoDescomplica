@@ -64,14 +64,14 @@
                 </div>
             </nav>
 
-    <header>
+    <header class="container-fluid p-2 bg-warning text-center">
 
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis animi atque, inventore quasi aut perspiciatis suscipit a eaque sint ex expedita blanditiis voluptate, totam sapiente dolores aperiam nemo? Voluptatum, quaerat!</p>
     </header>
     
-    <main>
-        <section>
+    <main class="container-fluid">
+        <section class="container-fluid bg-light text-center">
             <h2>Conheça nossos pacotes</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor assumenda error quos fuga nulla itaque repellat. Eum a modi consequatur ab consequuntur harum nulla exercitationem recusandae, aliquam aut minima?
@@ -94,8 +94,7 @@
 
         </section>
 
-
-        <section>
+        <section class="container-fluid bg-warning">
             <h2>Taxas de serviços</h2>
             <table>
                 <caption>Descrição dos serviços e seu respectivos valores</caption>
@@ -117,14 +116,20 @@
                 </tbody>
             </table>
         </section>
-        <section>
+
+        <section class="container-fluid bg-light">
             <h2>Orçamento</h2>
+
             <form method="get" action=""></form>
+
             <fieldset>
                 <legend>Dados da Viagem</legend>
-                <label for="">Nome</label>
-                <br>
-                <input type="text" name="Nome">
+
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome:</label>
+                    <input type="text" name="Nome" id="nome">
+                </div>
+
                 <br>
                 <label for="">Email</label>
                 <br>
@@ -138,6 +143,7 @@
                 <label for="">Quantidade de pessoas</label>
                 <input type="number" name="qtd"> <br>
             </fieldset>
+
             <fieldset>
                 <legend>Quais serviços deseja contratar?</legend>
                 <label>
@@ -154,6 +160,7 @@
                     veículos
                 </label>
             </fieldset>
+
             <fieldset>
                 <legend>Escolha de forma de pagamento</legend>
                 <label>
@@ -174,6 +181,7 @@
                     <input type="radio" name="formaPagamento" value="Pix">Pix
                 </label>
             </fieldset>
+
             <fieldset>
                 <legend>Escolha o prazo para pagamento</legend>
                 <select name="prozoPagamento">
@@ -182,12 +190,15 @@
                     <option value="10x">10x sem juros</option>
                 </select>
             </fieldset>
+
             <label>Comentários</label>
             <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+
+            <button><a href="#">Salvar</a></button>
         </section>
     </main>
 
-    <footer>
+    <footer class="container-fluid bg-warning text-center" >
         <p>Desenvolvido por <a href="">Angélica Ciriaco</a> junto com o Descomplica.</p>
     </footer>
 
